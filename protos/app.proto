@@ -9,5 +9,6 @@ message PredictRequest {
 }
 
 message PredictResponse {
-    bytes predictions = 1;
+    bool success = 1;
+    bytes predictions = 2;
 }
